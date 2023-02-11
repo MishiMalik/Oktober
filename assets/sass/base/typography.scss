@@ -232,10 +232,18 @@ $green: #3fbd00;
 
     }
 }
+.heading-green {
+    color: $green;
 
+    &::before {
+        background-color: $green;
+
+    }
+}
 .text {
     font-size: 15px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .text-justify {

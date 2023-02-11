@@ -151,9 +151,15 @@
   .heading-orange::before {
     background-color: #ef5b2f; }
 
+.heading-green {
+  color: #3fbd00; }
+  .heading-green::before {
+    background-color: #3fbd00; }
+
 .text {
   font-size: 15px;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: justify; }
 
 .text-justify {
   text-align: justify; }
@@ -638,6 +644,9 @@ a.gflag {
 .border-purple-top {
   border-top: 3px solid #994495; }
 
+.border-green-top {
+  border-top: 3px solid #3fbd00; }
+
 .border-red-top {
   border-top: 3px solid #e60a2e; }
 
@@ -804,3 +813,45 @@ a.gflag {
   align-items: center;
   text-align: center;
   background-color: #0071c2; }
+
+.program-card {
+  background-color: #f1f1f1 !important;
+  padding: 15px;
+  margin: 10px 0px; }
+  .program-card img {
+    width: 170px !important;
+    height: auto;
+    object-fit: cover;
+    background-color: red; }
+  .program-card .program-card-text {
+    padding-left: 15px; }
+    @media only screen and (max-width: 767px) {
+      .program-card .program-card-text {
+        padding-left: 0px; } }
+  @media only screen and (max-width: 767px) {
+    .program-card div {
+      flex-direction: column;
+      align-items: center; } }
+
+.box {
+  background-color: #dae9ee;
+  padding: 15px; }
+  .box .social-icon2 {
+    display: flex;
+    justify-content: center; }
+    .box .social-icon2 a {
+      font-size: 50px; }
+
+.no-decoration {
+  text-decoration: none; }
+
+.text a {
+  text-decoration: none; }
+
+.img {
+  float: left;
+  margin: 5px; }
+
+.imgr {
+  float: right;
+  margin: 5px; }

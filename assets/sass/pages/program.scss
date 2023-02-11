@@ -1,0 +1,55 @@
+.program-card{
+     background-color: #f1f1f1 !important;
+     padding: 15px;
+     margin: 10px 0px;
+     img{
+        width: 170px !important;
+        height: auto;
+        object-fit: cover;
+        background-color: red;
+     }
+     .program-card-text{
+        padding-left: 15px;
+        @media only screen and (max-width:767px){
+            padding-left: 0px;
+        }
+     }
+     div{
+        @media only screen and (max-width:767px){
+            flex-direction: column;
+            align-items: center;
+        }
+     }
+}
+.box{
+    background-color: #dae9ee;
+    padding: 15px;
+    .social-icon2{
+        display: flex;
+        justify-content: center;
+        a{
+            font-size: 50px;
+        }
+    }
+}
+.no-decoration{
+    text-decoration: none;
+}
+.text a{
+text-decoration: none;    
+}
+
+
+.img {
+    float: left;
+    margin: 5px;
+  }
+.imgr {
+    float: right;
+    margin: 5px;
+  }
+
+//   .wrap-p {
+//     text-align: justify;
+//     font-size: 25px;
+//   }
