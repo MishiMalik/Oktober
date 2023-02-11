@@ -141,8 +141,11 @@ ul ul ul {
 	float: right;
     margin-left: 6px;
 }
+// .logo-row{
+//     background-color: #1b98d5;
+// }
 .logo{
-    width: 300px;
+    width: 400px;
     height: auto;
     @media only screen and (max-width:1200px) {
         width: 300px;
@@ -154,6 +157,7 @@ ul ul ul {
       }
 }
 .flag-row{
+    background-color: $primary;
     @media only screen and (max-width:991px) {
         justify-content: center !important;
       }

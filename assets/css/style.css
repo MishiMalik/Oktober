@@ -314,7 +314,7 @@ ul ul ul {
   margin-left: 6px; }
 
 .logo {
-  width: 300px;
+  width: 400px;
   height: auto; }
   @media only screen and (max-width: 1200px) {
     .logo {
@@ -324,9 +324,11 @@ ul ul ul {
   .social-icon {
     display: none !important; } }
 
-@media only screen and (max-width: 991px) {
-  .flag-row {
-    justify-content: center !important; } }
+.flag-row {
+  background-color: #0071c2; }
+  @media only screen and (max-width: 991px) {
+    .flag-row {
+      justify-content: center !important; } }
 
 @media only screen and (max-width: 767px) {
   .highlighted-row {
