@@ -242,9 +242,8 @@ body {
 
 .active-link {
   background-color: white;
-  color: #0071c2 !important; 
-  padding: 7px 7px !important;
-}
+  color: #0071c2 !important;
+  padding: 7px 7px !important; }
 
 .small-weather {
   display: none; }
@@ -315,7 +314,7 @@ ul ul ul {
   margin-left: 6px; }
 
 .logo {
-  width: 500px;
+  width: 300px;
   height: auto; }
   @media only screen and (max-width: 1200px) {
     .logo {
