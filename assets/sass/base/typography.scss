@@ -4,6 +4,7 @@ $red: #e60a2e;
 $brown: #940909;
 $purple: #994495;
 $green: #3fbd00;
+$yellow:rgb(255,198,0) !important;
 
 
 
@@ -113,7 +114,9 @@ $green: #3fbd00;
 .text-primary {
     color: $primary !important;
 }
-
+.text-yellow {
+    color: $yellow !important;
+}
 .text-red {
     color: $red !important;
 }
@@ -129,7 +132,9 @@ $green: #3fbd00;
 .text-brown {
     color: $brown !important;
 }
-
+.text-yellow {
+    color: $yellow !important;
+}
 // =============================================font family
 .font-oxygen {
     font-family: 'Oxygen', sans-serif;
@@ -193,6 +198,14 @@ $green: #3fbd00;
 
     &::before {
         background-color: $brown;
+
+    }
+}
+.heading-yellow {
+    color: $yellow;
+
+    &::before {
+        background-color: $yellow;
 
     }
 }

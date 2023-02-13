@@ -73,6 +73,9 @@
 .text-primary {
   color: #0071c2 !important; }
 
+.text-yellow {
+  color: #ffc600 !important !important; }
+
 .text-red {
   color: #e60a2e !important; }
 
@@ -84,6 +87,9 @@
 
 .text-brown {
   color: #940909 !important; }
+
+.text-yellow {
+  color: #ffc600 !important !important; }
 
 .font-oxygen {
   font-family: 'Oxygen', sans-serif; }
@@ -130,6 +136,11 @@
   color: #940909; }
   .heading-brown::before {
     background-color: #940909; }
+
+.heading-yellow {
+  color: #ffc600 !important; }
+  .heading-yellow::before {
+    background-color: #ffc600 !important; }
 
 .heading-red {
   color: #e60a2e; }
@@ -653,6 +664,9 @@ a.gflag {
 .border-primary-top {
   border-top: 3px solid #0071c2; }
 
+.border-yellow-top {
+  border-top: 3px solid #ffc600 !important; }
+
 .border-primary {
   border: 3px solid #0071c2; }
 
@@ -737,21 +751,55 @@ a.gflag {
     font-size: 14px;
     font-weight: 600;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.5); }
-  .accordion-body .hotel-btn {
-    padding: 10px 10px 10px 10px;
-    background-repeat: no-repeat;
-    background-color: #9a7121;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(255, 255, 255, 0.6) inset;
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
-    color: #FFF !important;
-    font-size: 14px !important;
-    text-align: center;
-    display: block;
-    position: relative;
-    z-index: 1;
-    cursor: pointer;
-    text-decoration: none; }
   .accordion-body h2 {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: medium none !important;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: italic;
+    list-style: none outside none;
+    margin: 10px 0 0;
+    font-weight: 600;
+    text-align: center; }
+
+.accordion-header2 .accordion-button2 {
+  text-align: center !important;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 13px 20px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  text-shadow: 1px 1px 1px #000, 0 0 1px rgba(0, 0, 0, 0.603) !important;
+  background-color: #0071c2 !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none  !important;
+  background-image: none !important;
+  background-image: none  !important;
+  background-image: none !important;
+  display: flex;
+  justify-content: space-between !important; }
+  .accordion-header2 .accordion-button2:focus {
+    outline: none;
+    box-shadow: none; }
+
+.accordion-button2::after {
+  display: none; }
+
+.accordion-body2 {
+  background-color: white !important; }
+  .accordion-body2 h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.9); }
+  .accordion-body2 label {
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5); }
+  .accordion-body2 h2 {
     background: none repeat scroll 0 0 transparent;
     border-bottom: medium none !important;
     color: rgba(0, 0, 0, 0.4);
@@ -814,6 +862,21 @@ a.gflag {
   text-align: center;
   background-color: #0071c2; }
 
+.hotel-btn {
+  padding: 10px 10px 10px 10px;
+  background-repeat: no-repeat;
+  background-color: #9a7121;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(255, 255, 255, 0.6) inset;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  color: #FFF !important;
+  font-size: 14px !important;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  text-decoration: none; }
+
 .program-card {
   background-color: #f1f1f1 !important;
   padding: 15px;
@@ -873,7 +936,8 @@ a.gflag {
   align-items: center; }
   @media only screen and (max-width: 500px) {
     .imgr {
-      float: none; } }
+      float: none;
+      margin: 10px auto !important; } }
 
 .dish-card {
   display: flex;
