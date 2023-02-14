@@ -122,7 +122,9 @@
   font-weight: 600;
   position: relative;
   display: block;
-  padding-left: 25px; }
+  padding-left: 25px;
+  line-height: 10px;
+  margin-bottom: 15px !important; }
   .heading-secondry::before {
     content: ' ';
     display: block;
@@ -130,7 +132,7 @@
     height: 15px;
     position: relative;
     left: -25px;
-    top: 18px; }
+    top: 12px; }
 
 .heading-brown {
   color: #940909; }
@@ -680,23 +682,27 @@ a.gflag {
   position: relative;
   overflow: hidden; }
   .carousel-image-div:hover .carousel-image-content {
-    display: block !important; }
+    display: flex !important; }
 
 .carousel-image-content {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ef5b2f;
+  background-color: rgba(0, 0, 0, 0.888);
   bottom: 0;
   padding: 10px;
   border-radius: 5px;
   display: none;
-  cursor: pointer; }
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-around; }
   .carousel-image-content h1 {
     font-size: 14px;
     font-weight: 600;
-    color: white; }
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 7px; }
   .carousel-image-content p {
     font-size: 13px;
     color: white;
@@ -709,6 +715,10 @@ a.gflag {
   border-radius: 5px;
   padding: 5px;
   cursor: pointer; }
+
+.luna-park img {
+  border: 2px solid #0071c2;
+  padding: 0px !important; }
 
 .owl-next,
 .owl-prev {
