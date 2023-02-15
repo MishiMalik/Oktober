@@ -125,6 +125,9 @@
   padding-left: 25px;
   line-height: 10px;
   margin-bottom: 15px !important; }
+  @media only screen and (max-width: 500px) {
+    .heading-secondry {
+      line-height: 20px; } }
   .heading-secondry::before {
     content: ' ';
     display: block;
@@ -133,6 +136,9 @@
     position: relative;
     left: -25px;
     top: 12px; }
+    @media only screen and (max-width: 500px) {
+      .heading-secondry::before {
+        top: 18px; } }
 
 .heading-brown {
   color: #940909; }

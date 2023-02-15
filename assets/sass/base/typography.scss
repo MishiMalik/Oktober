@@ -182,7 +182,9 @@ $yellow:rgb(255,198,0) !important;
     padding-left: 25px;
     line-height: 10px;
     margin-bottom: 15px !important;
-
+@media only screen and (max-width:500px){
+    line-height: 20px;
+}
     &::before {
         content: ' ';
         display: block;
@@ -192,6 +194,9 @@ $yellow:rgb(255,198,0) !important;
         position: relative;
         left: -25px;
         top: 12px;
+        @media only screen and (max-width:500px){
+           top: 18px;
+        }
     }
 }
 
