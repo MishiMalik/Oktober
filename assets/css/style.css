@@ -554,7 +554,6 @@ a.gflag {
 
 .news-card {
   border: 3px solid #e60a2e;
-  height: 90%;
   border-radius: 3px; }
   @media only screen and (max-width: 991px) {
     .news-card {
@@ -649,6 +648,17 @@ a.gflag {
   border-radius: 3px;
   text-align: center; }
   .primary-btn:hover {
+    color: white !important; }
+
+.green-btn {
+  font-size: 16px;
+  color: white;
+  background-color: #3fbd00;
+  padding: 5px 7px;
+  text-decoration: none;
+  border-radius: 3px;
+  text-align: center; }
+  .green-btn:hover {
     color: white !important; }
 
 .border-right {
@@ -968,3 +978,23 @@ a.gflag {
   text-align: center;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.655);
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%); }
+
+.news-card2 {
+  background-color: #f1f1f1 !important;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none !important; }
+  .news-card2 img {
+    width: 50px !important;
+    height: auto;
+    object-fit: cover;
+    background-color: red; }
+  .news-card2 .news-text {
+    padding-left: 15px; }
+    @media only screen and (max-width: 767px) {
+      .news-card2 .news-text {
+        padding-left: 0px; } }
+  @media only screen and (max-width: 767px) {
+    .news-card2 div {
+      flex-direction: column;
+      align-items: center; } }
