@@ -32,7 +32,6 @@
 }
 .news-card{
     border: 3px solid $red;
-
     border-radius: 3px;
     @media only screen and (max-width:991px){
         height: auto !important;
@@ -430,7 +429,16 @@ z-index: 1;
 cursor: pointer;
 text-decoration: none;
 }
-
+.trip-card{
+    min-height: 430px;
+}
+.design-list{
+    background-color: #f7f7f7;
+    border-left: 2px solid $orange;
+    p{
+        font-size: 14px;
+    }
+}
 
 
 

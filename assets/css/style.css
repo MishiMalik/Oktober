@@ -903,6 +903,15 @@ a.gflag {
   cursor: pointer;
   text-decoration: none; }
 
+.trip-card {
+  min-height: 430px; }
+
+.design-list {
+  background-color: #f7f7f7;
+  border-left: 2px solid #ef5b2f; }
+  .design-list p {
+    font-size: 14px; }
+
 .program-card {
   background-color: #f1f1f1 !important;
   padding: 15px;
@@ -998,3 +1007,8 @@ a.gflag {
     .news-card2 div {
       flex-direction: column;
       align-items: center; } }
+
+.offers {
+  background-color: beige;
+  padding: 30px;
+  border-radius: 10px; }
