@@ -440,7 +440,70 @@ text-decoration: none;
     }
 }
 
-
+.departure-card{
+    background-color: #E4F4FF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    font-weight: normal !important;
+    color: rgba(0,0,0,0.6) !important;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.459);
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    width: 32%;
+    @media only screen and (max-width:767px){
+        width: 45%;
+    }
+    @media only screen and (max-width:500px){
+        width: 95%;
+    }
+    &:hover{
+        span{
+            display: flex;
+        }
+    }
+    a{
+        text-decoration: none;
+        h1{
+            font-size:18px;
+            font-weight: 600;
+            color: rgba(0,0,0,0.6) !important;
+           
+         }
+         p{
+            font-size: 14px;
+            color: rgba(0,0,0,0.6) !important;
+         }
+         span{
+            position: absolute;
+            top: -30px;
+            height: 30px;
+            width: 100px;
+            background-color: $green;
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            border-radius: 3px;
+            left: calc( 50% - 50px);
+         }
+    }
+}
 
 
 

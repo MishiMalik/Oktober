@@ -912,6 +912,62 @@ a.gflag {
   .design-list p {
     font-size: 14px; }
 
+.departure-card {
+  background-color: #E4F4FF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1%;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-weight: normal !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.459);
+  transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  width: 32%; }
+  @media only screen and (max-width: 767px) {
+    .departure-card {
+      width: 45%; } }
+  @media only screen and (max-width: 500px) {
+    .departure-card {
+      width: 95%; } }
+  .departure-card:hover span {
+    display: flex; }
+  .departure-card a {
+    text-decoration: none; }
+    .departure-card a h1 {
+      font-size: 18px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.6) !important; }
+    .departure-card a p {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.6) !important; }
+    .departure-card a span {
+      position: absolute;
+      top: -30px;
+      height: 30px;
+      width: 100px;
+      background-color: #3fbd00;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      border-radius: 3px;
+      left: calc( 50% - 50px); }
+
 .program-card {
   background-color: #f1f1f1 !important;
   padding: 15px;
