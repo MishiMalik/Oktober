@@ -73,11 +73,11 @@
 .text-primary {
   color: #0071c2 !important; }
 
-.text-yellow {
-  color: #ffc600 !important !important; }
-
 .text-red {
   color: #e60a2e !important; }
+
+.text-yellow {
+  color: #ffc800 !important; }
 
 .text-green {
   color: #3fbd00 !important; }
@@ -87,9 +87,6 @@
 
 .text-brown {
   color: #940909 !important; }
-
-.text-yellow {
-  color: #ffc600 !important !important; }
 
 .font-oxygen {
   font-family: 'Oxygen', sans-serif; }
@@ -146,9 +143,9 @@
     background-color: #940909; }
 
 .heading-yellow {
-  color: #ffc600 !important; }
+  color: #ffc800 !important; }
   .heading-yellow::before {
-    background-color: #ffc600 !important; }
+    background-color: #ffc800 !important; }
 
 .heading-red {
   color: #e60a2e; }
@@ -683,7 +680,7 @@ a.gflag {
   border-top: 3px solid #0071c2; }
 
 .border-yellow-top {
-  border-top: 3px solid #ffc600 !important; }
+  border-top: 3px solid #ffc800 !important; }
 
 .border-primary {
   border: 3px solid #0071c2; }
@@ -967,6 +964,10 @@ a.gflag {
       padding: 0;
       border-radius: 3px;
       left: calc( 50% - 50px); }
+
+.shop-card {
+  height: 250px !important;
+  width: 100% !important; }
 
 .program-card {
   background-color: #f1f1f1 !important;
