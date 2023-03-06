@@ -1068,3 +1068,40 @@ a.gflag {
   background-color: beige;
   padding: 30px;
   border-radius: 10px; }
+
+.offers-table table thead tr th {
+  background: none repeat scroll 0 0 #68B3DE !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.7) inset;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 7px 10px;
+  text-align: center;
+  vertical-align: middle; }
+
+.hover-display-text {
+  position: relative; }
+  .hover-display-text .hover-display {
+    position: absolute;
+    background-color: #000000d0;
+    color: white;
+    font-size: 14px;
+    color: white;
+    width: 200px;
+    left: calc(50% - 100px);
+    bottom: 95%;
+    display: none;
+    padding: 10px; }
+    .hover-display-text .hover-display::after {
+      content: " ";
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #000000d0;
+      position: absolute;
+      bottom: -10px;
+      left: calc(50% - 10px); }
+  .hover-display-text:hover .hover-display {
+    display: block; }
